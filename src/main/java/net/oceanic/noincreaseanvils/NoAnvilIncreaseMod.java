@@ -1,6 +1,6 @@
 package net.oceanic.noincreaseanvils;
 
-import com.mojang.logging.LogUtils;
+
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
@@ -19,7 +19,6 @@ public class NoAnvilIncreaseMod
 {
 
     // Directly reference a slf4j logger
-    public static final Logger LOGGER = LogUtils.getLogger();
 
     public NoAnvilIncreaseMod()
     {
